@@ -11,7 +11,7 @@
     margin-bottom: -1px;
 }
 
-// FORECAST 3HR ROW STYLING
+/* FORECAST 3HR ROW STYLING */
 .time-data div {
     background: #3C576E;
     color: #fff;
@@ -20,12 +20,12 @@
     font-size: 20px;
 }
 
-// WEATHER CONDITION IMAGE
+/* WEATHER CONDITION IMAGE */
 .weather-data img {
     padding: 26px 0;
 }
 
-// CIRCLE FOR TEMPERATURE
+/* CIRCLE FOR TEMPERATURE */
 .temp-circle {
     font-weight: bold;
     margin: 10px auto 10px;
@@ -38,7 +38,7 @@
     -moz-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,1);
     box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,1);
 }
-// BACKGROUND COLOURS FOR SPECIFIC TEMPERATURE VALUES
+/* BACKGROUND COLOURS FOR SPECIFIC TEMPERATURE VALUES */
 .temp-circle.temp-13 {
     background: #5b6ea3;
 }
@@ -214,12 +214,12 @@
     background: #c2012e;
 }
 
-// CHANCE OF RAIN PROGRESS BAR STYLING
+/* CHANCE OF RAIN PROGRESS BAR STYLING */
 .rain-data .progress {
     height: 40px;
 }
 
-// WIND DIRECTION ICON
+/* WIND DIRECTION ICON */
 .wind-data div {
     margin: 0 auto;
     height: 73px;
@@ -228,7 +228,7 @@
     margin-top: 7px;
 }
 
-// WIND SPEED TEXT
+/* WIND SPEED TEXT */
 .wind-data div span {
     display: block;
     padding-top: 14px;
@@ -236,7 +236,7 @@
     font-weight: bold;
 }
 
-// UV INDEX ICON
+/* UV INDEX ICON */
 .uv-data div {
     margin: 0 auto;
     background-image: url(weatherimages/weathericons/uvindex.png);
@@ -245,7 +245,7 @@
     margin-top: 7px;
 }
 
-// UV INDEX BACKGROUND COLOURS FOR SPECIFIC VALUES
+/* UV INDEX BACKGROUND COLOURS FOR SPECIFIC VALUES */
 .uv-data div.uvlevel0 {
     background-color: #fefefe;
 }
@@ -267,7 +267,7 @@
     color: #fff;
 }
 
-// UV INDEX TEXT 
+/* UV INDEX TEXT */
 .uv-data div span {
     display: block;
     padding-top: 30px;
