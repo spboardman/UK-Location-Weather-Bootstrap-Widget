@@ -25,7 +25,7 @@ This is freely available and can be obtained by registering here: http://www.met
 This weather widget requires PHP to be available on your server.
 
 * #### SimpleXML 
-SimpleXML must be available on your server. To test if SimpleXML is installed and available, use the SimpleXML.php file in this repository. Instructions are in the file. More info on SimpleXML here: http://php.net/manual/en/book.simplexml.php
+SimpleXML must be available on your server. To test if SimpleXML is installed and available, use the simplexmltest.php file in this repository. Instructions are in the file. More info on SimpleXML here: http://php.net/manual/en/book.simplexml.php
 
 
 * #### Bootstrap
