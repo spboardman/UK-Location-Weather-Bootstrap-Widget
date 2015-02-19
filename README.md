@@ -48,22 +48,15 @@ This is required to automatically update the XML weather data feed. More info on
 
 ##USAGE 
 
-1. OBTAIN YOUR DATAPOINT API KEY FROM THE MET OFFICE WEBSITE AT http://www.metoffice.gov.uk/datapoint/API
-2. FIND THE LOCATION CODE THAT YOU WISH TO USE FOR YOUR FORECASTS. YOU CAN FIND THE LOCATION CODE BY VISITING http://data.gov.uk/metoffice-data-archive AND THEN USING THE SITE CODE DROPDOWN TO FIND YOUR LOCATION. YOU NEED THE NUMBER CODE THAT IS SHOWN ALONGSIDE THE NAME OF THE LOCATION. THIS IS NEEDED IN THE NEXT STEP.
-3. OPEN THE WEATHERUPDATE.PHP FILE AND ADD THE LOCATION CODE ON LINE 6 WHERE IT IS INDICATED
-4. WHILST IN THE WEATHERUPDATE.PHP FILE ADD YOUR DATAPOINT API KEY ON LINE 6 WHERE IT IS INDICATED.
-5. AMEND LINE 9 OF THE WEATHERUPDATE.PHP FILE EDITING THE RELATIVE PATH TO THE WEATHER.XML FILE DEPENDING ON WHERE YOU UPLOAD IT TO.
-6. SAVE THIS FILE
-7. CUT AND PASTE THE WEATHER.PHP FILE CONTENTS INTO A PHP WEB PAGE FOR YOUR SITE, ENSURING THAT THIS WEBPAGE HAS BOOTSTRAP CSS & JS ALONG WITH JQUERY INCLUDED. YOU CAN REMOVE BOOTSTRAP SPECIFIC ELEMENTS AND STYLING IF YOU WISH BUT YOU MUST THEN STYLE THE WIDGET YOURSELF. YOU NEED TO ENSURE THAT THE URL FOR THE WEATHER.XML FILE ON LINE 14 IS CORRECT DEPENDENT ON WHERE YOU UPLOAD THIS FILE TO ON YOUR SERVER
-8. IF YOU UPLOAD THE FILES AND FOLDERS TO A LOCATION OTHER THAN IN THE ROOT, YOU NEED TO CHANGE THE URL'S FOR THE IMAGES AND BACKGROUND IN THE WEATHERSTYLE.CSS AND WEATHER.PHP FILES TO CORRECTLY POINT AT THE CORRECT WEATHER IMAGE FOLDER AND SUBFOLDERS.
-9. ENSURE THAT THE WEATHER.XML HAS THE CORRECT WRITE PERMISSIONS SO IT CAN BE WRITTEN TO BY THE WEATHERUPDATE.PHP SCRIPT. I FOUND SETTING 0755 PERMISSION TO WORK WELL BUT THIS NEED TWEAKING FOR DIFFERENT SERVER CONFIGS.
-9. TEST THAT THE WEATHERUPDATE.PHP SCRIPT IS WORKING AND UPDATING CORRECTLY. YOU CAN DO SO BY NAVIGATING TO HTTP://YOURDOMAIN.COM/WEATHERUPDATE.PHP. IF SUCCESSFUL, YOUR WEATHER.XML FILE SHOULD CONTAIN THE LATEST DATA. IT CAN TAKE A FEW MOMENTS TO RUN THE UPDATE.
-10. CREATE A CRON JOB TO RUN THE WEATHERUPDATE.PHP SCRIPT EVERY THREE HOURS
-11. FINISH ANY CSS STYLING AS YOU REQUIRE, I'VE PROVIDED A BASE FROM WHICH YOU CAN WORK IF YOU LIKE
-
-
-## Assistance
-THIS PACKAGE IS PROVIDED AS IS AND I CANNOT SUPPLY EXTENSIVE ASSISTANCE FOR IT. IT DOES REQUIRE BASIC KNOWLEDGE OF HTML, CSS AND PHP.
-
-
-
+1. Obtain your datapoint api key from the met office website at http://www.metoffice.gov.uk/datapoint/api
+2. Find the location code that you wish to use for your forecasts. You can find the location code by visiting http://data.gov.uk/metoffice-data-archive and then using the site code dropdown to find your location. You need the number code that is shown alongside the name of the location. This is needed in the next step.
+3. Open the weatherupdate.php file and add the location code on line 6 where it is indicated
+4. Whilst in the weatherupdate.php file add your datapoint api key on line 6 where it is indicated.
+5. Amend line 9 of the weatherupdate.php file editing the relative path to the weather.xml file depending on where you upload it to.
+6. Save this file
+7. Cut and paste the weather.php file contents into a php web page for your site, ensuring that this webpage has bootstrap css & js along with jquery included. You can remove bootstrap specific elements and styling if you wish but you must then style the widget yourself. You need to ensure that the url for the weather.xml file on line 14 is correct dependent on where you upload this file to on your server
+8. If you upload the files and folders to a location other than in the root, you need to change the url's for the images and background in the weatherstyle.css and weather.php files to correctly point at the correct weather image folder and subfolders.
+9. Ensure that the weather.xml has the correct write permissions so it can be written to by the weatherupdate.php script. i found setting 0755 permission to work well but this need tweaking for different server configs.
+10. Test that the weatherupdate.php script is working and updating correctly. You can do so by navigating to http://yourdomain.com/weatherupdate.php. If successful, your weather.xml file should contain the latest data. it can take a few moments to run the update.
+11. Create a cron job to run the weatherupdate.php script every three hours
+12. Finish any css styling as you require, I’ve provided a base from which you can work if you like.
