@@ -26,20 +26,16 @@ This weather widget requires PHP to be available on your server.
 
 * #### SimpleXML 
 SimpleXML must be available on your server. 
-
 To test if SimpleXML is installed and available, use the simplexmltest.php file in this repository. Instructions are in the file. 
-
 More info on SimpleXML here: http://php.net/manual/en/book.simplexml.php
 
 
 * #### Bootstrap
 For the layout and styling of the widget, you need to have Bootstrap set up correctly on the website you intend to use this widget on. You can remove the Bootstrap specific classes and ID's if you don't wish to make use of Bootstrap though. 
-
 More info on Bootstrap here: http://getbootstrap.com/
 
 * #### jQuery
 If you wish to make use of Bootstrap, you also have to include jQuery on the website you intend to use this widget on.
-
 More info on jQuery here: http://jquery.com/
 
 
