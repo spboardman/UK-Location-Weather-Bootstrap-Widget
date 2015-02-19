@@ -110,7 +110,7 @@
 					
 					<!-- DISPLAY WEATHER ICON -->
 					<div class="col-sm-1 weather-data">
-						<img src="/weatherimages/weathericons/w<?php echo $weathercode;?>.png" alt="<?php echo $weathercurrent;?>" />
+						<img src="/weatherimages/w<?php echo $weathercode;?>.png" alt="<?php echo $weathercurrent;?>" />
 					</div>
 					
 					<!-- DISPLAY TEMPERATURE -->
