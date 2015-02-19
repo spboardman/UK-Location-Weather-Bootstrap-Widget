@@ -3,7 +3,7 @@ A PHP/XML based local weather forecast widget, offering a 5 day local forecast. 
 
 ##Weather Data Available
 
-Each site has the following weather forecast data available for it in 3-hourly intervals out to five days:
+Your specified location has the following weather forecast data available for it in 3-hourly intervals out to five days:
 
 * Wind direction (16 point compass)
 * Wind speed (mph)
